@@ -29,7 +29,7 @@ function startStage() {
     numbers.innerHTML = numberHtml;
 }
 function updateInterface (){
-     let stap = staps[startStage];
+     let stap = staps[stapCurrent];
      let candidates = stap.candidates.filter((item)=>{
         if(item.number === number){
             return true;
